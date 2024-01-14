@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.post{
+    width: 800px;
+     margin-left: 25%;
+}
+.post-header{
+    display:    flex;
+    margin: 5px;
+    align-items: center;
+}
+.html5-ico{
+    margin-left: 20px;
+    padding-right: 10px;
+
+}
+.dots-vertical{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.post-icons{
+    display: flex;
+    margin: 0px;
+    width: 800px;
+}
+img{
+    width: 800px;
+}
+#bookmark{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+svg{
+    margin: 5px;
+}
+p{
+    margin: 2px;
+}
