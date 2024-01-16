@@ -1,44 +1,105 @@
-*{
+* {
     margin: 0px;
 }
-p{
+
+body {
     font-family: 'Roboto', sans-serif;
 }
-.post{
-    width: 800px;
-     margin-left: 25%;
+
+/*Heart animation pulse*/
+@keyframes heartAnim {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.25);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
-.post-header{
-    display:    flex;
+
+/* Icons styles */
+.html5-ico {
+    font-size: 2em;
+    margin-left: 5px;
+}
+
+.post-icons {
+    display: flex;
+}
+
+
+
+.heart-icon {
     margin: 5px;
-    align-items: center;
-}
-.html5-ico{
-    margin-left: 20px;
-    padding-right: 10px;
+    font-size: 1.5em;
 
 }
-.dots-vertical{
-    display: flex;
-    justify-content: end;
-    width: 100%;
+
+.heart-icon:hover {
+    cursor: pointer;
+    color: red;
+    animation: heartAnim 3s ease 0s 1 normal forwards;
 }
-.post-icons{
-    display: flex;
-    margin: 0px;
-    width: 800px;
-}
-img{
-    width: 800px;
-}
-#bookmark{
-    display: flex;
-    justify-content: end;
-    width: 100%;
-}
-svg{
+
+.comment-icon {
     margin: 5px;
+    font-size: 1.5em;
 }
-p{
+
+.share-icon {
+    margin: 5px;
+    font-size: 1.5em;
+}
+
+.bookmark-icon {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin: 5px;
+    font-size: 1.5em;
+}
+
+.dots-vertical {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+/*Post styles*/
+.post {
+    width: 600px;
+    margin-left: 35%;
+    align-items: center;
+
+}
+
+.post-header {
+    display: flex;
+    margin: 2px;
+    align-items: center;
+}
+
+.post-header h1 {
+    font-size: 1.2em;
+}
+
+
+.post-img img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.post-icons {
+    margin-bottom: 20px;
+}
+
+.post-footer {
     margin: 2px;
 }
