@@ -5,7 +5,13 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.bootstrap-will-fix-this{
+    color: white;
+}
 /*Heart animation pulse*/
 @keyframes heartAnim {
     0% {
@@ -74,8 +80,6 @@ body {
 /*Post styles*/
 .post {
     width: 600px;
-    margin-left: 35%;
-    align-items: center;
 
 }
 
