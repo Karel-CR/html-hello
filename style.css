@@ -5,13 +5,16 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-.content{
+
+.content {
     display: flex;
     justify-content: space-between;
 }
-.bootstrap-will-fix-this{
+
+.bootstrap-will-fix-this {
     color: white;
 }
+
 /*Heart animation pulse*/
 @keyframes heartAnim {
     0% {
