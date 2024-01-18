@@ -4,16 +4,16 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: lightgrey;
 }
 
 .content {
     display: flex;
     justify-content: space-between;
+
 }
 
-.bootstrap-will-fix-this {
-    color: white;
-}
+
 
 /*Heart animation pulse*/
 @keyframes heartAnim {
@@ -82,7 +82,9 @@ body {
 
 /*Post styles*/
 .post {
+    margin: auto;
     width: 600px;
+    background-color: whitesmoke;
 
 }
 
